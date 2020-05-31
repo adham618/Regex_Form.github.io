@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>RegEx Form</title>
+</head>
+<body>
+  <h1>New User SignUp</h1>
+  <form action="">
+    <input type="text" name="username" id="username" placeholder="Username">
+    <p>Username must be and contain 5 - 12 characters</p>
+    <input type="email" name="email" id="email" placeholder="Email">
+    <p>Email must be a valid address, e.g. me@gmail.com</p>
+    <input type="password" name="password" id="password" placeholder="Password">
+    <p>Password must alphaumeric (@, _ and - are also allowed) and be 8 - 20 characters</p>
+    <input type="text" name="telephone" id="telephone" placeholder="Telephone">
+    <p>Telephone must be a valid UK telephone number</p>
+    <input type="text" name="slug" id="slug" placeholder="Profile slug">
+    <p>Slug must contain only lowercase letters, number and hyphens annd be 8 - 20 characters </p>
+  </form>
+  <script src="validation.js"></script>
+</body>
+</html>
